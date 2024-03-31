@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* margin-top:  50px; */
+}
+.Card{
+    width: 60vw;
+    height: 60vh;
+    background-color: #290b3ccb;
+    display: flex;
+}   
+
+.leftbox{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 25px;
+    color: white;
+   
+}
+.rightbox {
+    height: 100%;
+    width: 50%;
+   
+}
+.rightbox img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.statistics{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    text-align: center;
+}
+.statistics .num{
+    font-weight: bolder;
+   
+}
+.statistics .unit{
+    font-weight: lighter;
+}
